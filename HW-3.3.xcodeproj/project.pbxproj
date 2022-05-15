@@ -11,6 +11,10 @@
 		3F10DEA42831704000FED631 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10DEA32831704000FED631 /* ContentView.swift */; };
 		3F10DEA62831704000FED631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F10DEA52831704000FED631 /* Assets.xcassets */; };
 		3F10DEA92831704000FED631 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F10DEA82831704000FED631 /* Preview Assets.xcassets */; };
+		3F10DEB0283174B300FED631 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10DEAF283174B300FED631 /* TimeCounter.swift */; };
+		3F10DEB228317B6F00FED631 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10DEB128317B6F00FED631 /* RegisterView.swift */; };
+		3F10DEB428317C7800FED631 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10DEB328317C7800FED631 /* UserManager.swift */; };
+		3F10DEB628317DDF00FED631 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10DEB528317DDF00FED631 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3F10DEA32831704000FED631 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F10DEA52831704000FED631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F10DEA82831704000FED631 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F10DEAF283174B300FED631 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		3F10DEB128317B6F00FED631 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3F10DEB328317C7800FED631 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		3F10DEB528317DDF00FED631 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				3F10DEA12831704000FED631 /* HW_3_3App.swift */,
 				3F10DEA32831704000FED631 /* ContentView.swift */,
+				3F10DEAF283174B300FED631 /* TimeCounter.swift */,
+				3F10DEB128317B6F00FED631 /* RegisterView.swift */,
+				3F10DEB528317DDF00FED631 /* StarterView.swift */,
+				3F10DEB328317C7800FED631 /* UserManager.swift */,
 				3F10DEA52831704000FED631 /* Assets.xcassets */,
 				3F10DEA72831704000FED631 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F10DEB0283174B300FED631 /* TimeCounter.swift in Sources */,
+				3F10DEB228317B6F00FED631 /* RegisterView.swift in Sources */,
+				3F10DEB628317DDF00FED631 /* StarterView.swift in Sources */,
 				3F10DEA42831704000FED631 /* ContentView.swift in Sources */,
+				3F10DEB428317C7800FED631 /* UserManager.swift in Sources */,
 				3F10DEA22831704000FED631 /* HW_3_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
