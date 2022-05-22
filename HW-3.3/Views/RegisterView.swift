@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct RegisterView: View {
+    
+    let data: DataManager
     @State private var userName = ""
+    @State private var savedUserName: [User] = []
     @EnvironmentObject private var user: UserManager
     
     var body: some View {
@@ -33,6 +36,9 @@ struct RegisterView: View {
     }
     
     private func registerUser() {
+        data.save(userName, user.isRegistered) { user in
+            savedUserName.append(user)
+        }
         if !userName.isEmpty {
             user.name = userName
             user.isRegistered.toggle()
@@ -42,6 +48,6 @@ struct RegisterView: View {
 
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
-        RegisterView()
+        RegisterView(data: DataManager())
     }
 }

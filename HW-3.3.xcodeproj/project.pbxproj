@@ -17,6 +17,7 @@
 		3F10DEB628317DDF00FED631 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10DEB528317DDF00FED631 /* StarterView.swift */; };
 		3FECB0CC283A36370029E6C1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FECB0CB283A36370029E6C1 /* ButtonView.swift */; };
 		3FECB0D7283A4EB00029E6C1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FECB0D6283A4EB00029E6C1 /* DataManager.swift */; };
+		3FECB0DA283A4EDF0029E6C1 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FECB0D8283A4EDF0029E6C1 /* UserModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3F10DEB528317DDF00FED631 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		3FECB0CB283A36370029E6C1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3FECB0D6283A4EB00029E6C1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3FECB0D9283A4EDF0029E6C1 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3FECB0D4283A4E800029E6C1 /* Views */,
 				3FECB0D5283A4E970029E6C1 /* Managers */,
 				3F10DEAF283174B300FED631 /* TimeCounter.swift */,
+				3FECB0D8283A4EDF0029E6C1 /* UserModel.xcdatamodeld */,
 				3F10DEA52831704000FED631 /* Assets.xcassets */,
 				3F10DEA72831704000FED631 /* Preview Content */,
 			);
@@ -179,6 +182,7 @@
 				3F10DEB428317C7800FED631 /* UserManager.swift in Sources */,
 				3F10DEA22831704000FED631 /* HW_3_3App.swift in Sources */,
 				3FECB0CC283A36370029E6C1 /* ButtonView.swift in Sources */,
+				3FECB0DA283A4EDF0029E6C1 /* UserModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +385,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FECB0D8283A4EDF0029E6C1 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FECB0D9283A4EDF0029E6C1 /* UserModel.xcdatamodel */,
+			);
+			currentVersion = 3FECB0D9283A4EDF0029E6C1 /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F10DE962831704000FED631 /* Project object */;
 }

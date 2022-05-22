@@ -15,6 +15,7 @@ struct HW_3_3App: App {
         WindowGroup {
             StarterView()
                 .environmentObject(userManager)
+            RegisterView(data: DataManager())
         }
     }
 }

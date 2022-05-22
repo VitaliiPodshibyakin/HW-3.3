@@ -16,7 +16,7 @@ struct StarterView: View {
             if user.isRegistered {
                 ContentView()
             } else {
-                RegisterView()
+                RegisterView(data: DataManager())
             }
         }
     }
