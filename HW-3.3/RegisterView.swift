@@ -16,13 +16,18 @@ struct RegisterView: View {
             HStack {
                 TextField("Enter your name...", text: $userName)
                     .multilineTextAlignment(.center)
-                
+                    .frame(width: 200)
+                Text("\(userName.count)")
+                    .foregroundColor(userName.count >= 3 ? .green : .red)
+
             }
+            
             Button(action:{ registerUser() }) {
                 HStack {
                     Image(systemName: "checkmark.circle")
                     Text("OK")
                 }
+                .disabled(userName.count >= 3 ? false : true)
             }
         }
     }
